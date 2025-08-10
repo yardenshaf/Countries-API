@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Check My Country!</h1>
+    <form>
+        <input id="search-bar" placeholder="enter your country!"> <br>
+        <button id="search-button">Search</button>
+        <button id="show-all">Show All Countries</button>
+    </form>
+
+    <div id="countries-statistics">
+
+    </div>
+    <div class="table-container">
+        <table class="table table-striped">
+            <thead>
+                <th>Country Name</th>
+                <th>Population</th>
+            </thead>
+            <tbody id="countries-table">
+
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <thead>
+                <th>Region</th>
+                <th>Number Of Countries</th>
+            </thead>
+            <tbody id="regions-table">
+
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <thead>
+                <th>Currency</th>
+                <th>Number Of Countries That Use It</th>
+            </thead>
+            <tbody id="currency-table">
+
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+
+</html>
